@@ -1,0 +1,39 @@
+.services h2 { 
+  position: relative;
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin: 0 0 50px 0;
+}
+
+/* .services h2::after {
+  content: "Услуги";
+} */
+
+.services__ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+  padding: 0;
+  list-style: none;
+  gap: 1px;
+  box-sizing: border-box;
+  background-color: #0138b7;
+}
+
+.services__ul li {
+  height: 240px;
+}
+
+.services__ul button {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: white;
+  transition: all 0.35s ease-in-out;
+}
+
+.services__ul button:hover {
+  border: none;
+  background-color: #0138b7;
+  color: white;
+}
