@@ -7,7 +7,7 @@ main {
   align-items: center;
   background-color: #e9f1f4;
   background-image: url("./assets/land-bg-comb.png");
-  background-size: cover;
+  background-size: contain;
 }
 
 .landing p {
@@ -28,4 +28,10 @@ main {
   background-color: white;
   color: #0138b7;
   border: 2px solid #0138b7;
+}
+
+@media screen and (max-width:1439px) {
+  .landing {
+    background-size: cover;
+  }
 }
