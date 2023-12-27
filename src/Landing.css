@@ -1,7 +1,13 @@
+main {
+  background-color: #e1eaef;
+}
 .landing {
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #e9f1f4;
+  background-image: url("./assets/land-bg-comb.png");
+  background-size: cover;
 }
 
 .landing p {

@@ -1,0 +1,52 @@
+.header {
+  position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: #e1eaef; */
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-size: 36px;
+  letter-spacing: 3px;
+  line-height: 1;
+}
+
+.header p, .header ul button p{
+  margin: 0;
+}
+
+.header ul {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+    list-style: none;
+  margin: 0;
+}
+
+.header ul button {
+  background-color: transparent;
+  border: none;
+  /* font-size: 18px; */
+}
+
+.header ul button:hover {
+  border: none;
+  color: #0138b7;
+}
+
+
+
+
