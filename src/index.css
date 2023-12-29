@@ -34,6 +34,7 @@ section {
   box-sizing: border-box;
   padding: 5%;
   background-color: #e1eaef;
+  overflow: hidden;
 }
 
 h1 {

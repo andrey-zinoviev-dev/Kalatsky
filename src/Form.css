@@ -1,3 +1,7 @@
+.contanct {
+  position: relative;
+}
+
 .contanct__ul {
   list-style: none;
   padding: 0;
@@ -115,4 +119,11 @@
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.contact__img {
+  position: absolute;
+  top: calc(100% - 50vh);
+  right: -10%;
+  max-width: 360px;
 }

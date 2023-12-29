@@ -1,5 +1,6 @@
 import { services } from "./utils";
 import "./Services.css";
+import Ellipse from "./assets/Ellipse.png";
 
 export default function Services() {
   return (
@@ -16,6 +17,7 @@ export default function Services() {
           })}
         </ul>
       </div>
+      <img className="services__img" src={Ellipse} />
     </section>
   )
 }

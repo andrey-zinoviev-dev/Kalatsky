@@ -3,6 +3,7 @@ import "./Form.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import map from "./assets/map.png";
+import Ellipse from "./assets/Ellipse.png";
 
 export default function Form({orderClicked}) {
   const sectionRef = React.useRef();
@@ -48,6 +49,7 @@ export default function Form({orderClicked}) {
           <img className="contanct__wrapper-img" src={map} />
         </div>
       </div>
+      <img className="contact__img" src={Ellipse} />
     </section>
   )
 }
