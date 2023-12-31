@@ -112,6 +112,7 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  gap: 120px;
 }
 
 .contanct__wrapper img {
@@ -126,4 +127,29 @@
   top: calc(100% - 50vh);
   right: -10%;
   max-width: 360px;
+}
+
+@media screen and (max-width: 1279px) {
+  .contanct {
+    padding: 5%;
+  }
+  .contanct__wrapper {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contanct__ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .contanct__ul p {
+    font-size: 16px;
+  }
+
+  .contanct__wrapper {
+    flex-direction: column;
+  }
 }

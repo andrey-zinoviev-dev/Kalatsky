@@ -17,7 +17,7 @@ export default function Services() {
           })}
         </ul>
       </div>
-      <img className="services__img" src={Ellipse} />
+      {/* <img className="services__img" src={Ellipse} /> */}
     </section>
   )
 }

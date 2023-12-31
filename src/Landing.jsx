@@ -4,6 +4,8 @@ import Services from './Services'
 import Form from './Form';
 import "./Landing.css";
 // import Pic from "./assets/AK6A4769.jpg"
+import Pic from "./assets/AK6A4769.png";
+
 export default function Landing() {
   const [orderClicked, setOrderClicked] = React.useState(false);
   React.useEffect(() => {
@@ -17,7 +19,7 @@ export default function Landing() {
       <section className="landing">
         <div className='container'>
           <div>
-            <h1>Юридические консультации</h1>
+            <h1 className='landing__headline'>Юридические консультации</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nihil voluptatem perspiciatis dolorem aperiam aliquid totam dicta suscipit, iusto, illo quasi, maiores vel quo dolorum accusamus modi optio odit magni</p>
             <button onClick={() => {
               setOrderClicked(true);
@@ -25,7 +27,8 @@ export default function Landing() {
           </div>
           
         </div>
-        {/* <img src={Pic} alt="" /> */}
+        {/* <div></div> */}
+        <img className='landing__img' style={{width: "100%"}} src={Pic} alt="" />
       </section>
       <Services />
       <Form orderClicked={orderClicked} />

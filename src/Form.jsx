@@ -49,7 +49,7 @@ export default function Form({orderClicked}) {
           <img className="contanct__wrapper-img" src={map} />
         </div>
       </div>
-      <img className="contact__img" src={Ellipse} />
+      {/* <img className="contact__img" src={Ellipse} /> */}
     </section>
   )
 }

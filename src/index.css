@@ -32,9 +32,10 @@ body {
 
 section {
   box-sizing: border-box;
-  padding: 5%;
+  padding: 20%;
   background-color: #e1eaef;
   overflow: hidden;
+  position: relative;
 }
 
 h1 {
@@ -79,10 +80,25 @@ button:focus-visible {
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
+  position: relative;
+  z-index: 6;
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
   /* height: 100%; */
   /* display: flex;
   align-items: center; */
+}
+
+@media screen and (max-width: 1279px) {
+  section {
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+    max-width: 280px;
+  }
 }

@@ -5,15 +5,17 @@ main {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #e9f1f4;
-  background-image: url("./assets/land-bg-comb.png");
-  background-size: contain;
+  /* background-color: #e9f1f4; */
+  /* background-image: url("./assets/land-bg-comb.png"); */
+  /* background-size: contain; */
 }
 
 .landing p {
   max-width: 540px;
   line-height: 1.5;
   margin: 0 0 50px 0;
+  color: #646cff;
+  font-size: 18px;
 }
 
 .landing button {
@@ -30,8 +32,38 @@ main {
   border: 2px solid #0138b7;
 }
 
+.landing__img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+}
+
 @media screen and (max-width:1439px) {
-  .landing {
+  /* .landing {
     background-size: cover;
+    background-position: right;
+  } */
+}
+
+@media screen and (max-width:1023px) {
+  .landing__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -35%;
+  }
+  .landing p {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  /* .landing {
+    align-items: flex-start;
+  } */
+  .landing p {
+    max-width: 210px;
+    font-size: 16px;
   }
 }

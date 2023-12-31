@@ -48,6 +48,10 @@
   color: #0138b7;
 }
 
-
+@media screen and (max-width: 767px) {
+  .header nav {
+    display: none;
+  }
+}
 
 
