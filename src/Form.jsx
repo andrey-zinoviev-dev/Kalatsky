@@ -15,7 +15,7 @@ export default function Form({orderClicked}) {
   return (
     <section className="contanct" ref={sectionRef}>
       <div className="container">
-        <h2>Связаться со мной</h2>
+        <h2 className="contanct__headline">Связаться со мной</h2>
         <ul className="contanct__ul">
               <li>
                 <FontAwesomeIcon icon={faPhone} />
