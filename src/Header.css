@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 5%;
+    padding: 1% 10%;
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.35);
     z-index: 7;
@@ -41,12 +41,19 @@
 .header ul button {
   background-color: transparent;
   border: none;
+  color: white;
   /* font-size: 18px; */
 }
 
 .header ul button:hover {
   border: none;
   color: #0138b7;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    padding: 1% 5%;
+  }
 }
 
 @media screen and (max-width: 767px) {

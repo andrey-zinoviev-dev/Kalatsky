@@ -9,15 +9,15 @@ main {
   background-image: url("./assets/bg-new.png");
   /* background-size: contain; */
   background-size: cover;
-    background-position: right;
+  background-position: top;
 }
 
 .landing p {
   max-width: 540px;
   line-height: 1.5;
   margin: 0 0 50px 0;
-  /* color: #646cff; */
-  color: white;
+  color: #646cff;
+  /* color: white; */
   font-size: 18px;
 }
 
@@ -76,6 +76,7 @@ main {
     background-position: 85% 0;
   }
   .landing p {
+    color: white;
     /* max-width: 210px; */
     font-size: 16px;
   }
