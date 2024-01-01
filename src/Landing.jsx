@@ -4,7 +4,8 @@ import Services from './Services'
 import Form from './Form';
 import "./Landing.css";
 // import Pic from "./assets/AK6A4769.jpg"
-import Pic from "./assets/AK6A4769.png";
+// import Pic from "./assets/AK6A4769.png";
+// import Pic from "./assets/bg-new.png";
 
 export default function Landing() {
   const [orderClicked, setOrderClicked] = React.useState(false);
@@ -27,8 +28,8 @@ export default function Landing() {
           </div>
           
         </div>
-        {/* <div></div> */}
-        <img className='landing__img' style={{width: "100%"}} src={Pic} alt="" />
+        <div className='landing__overlay'></div>
+        {/* <img className='landing__img' style={{width: "100%"}} src={Pic} alt="" /> */}
       </section>
       <Services />
       <Form orderClicked={orderClicked} />

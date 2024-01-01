@@ -1,6 +1,6 @@
 .services {
   position: relative;
-  padding: 10% 20%;
+  /* padding: 10% 20%; */
 }
 
 .services h2 { 
@@ -71,6 +71,6 @@
   }
 
   .services__ul li {
-    height: 180px;
+    height: 140px;
   }
 }

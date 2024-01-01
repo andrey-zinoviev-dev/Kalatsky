@@ -32,7 +32,8 @@ body {
 
 section {
   box-sizing: border-box;
-  padding: 20%;
+  /* padding: 20%; */
+  padding: 10%;
   background-color: #e1eaef;
   overflow: hidden;
   position: relative;
@@ -42,6 +43,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   max-width: 540px;
+  color: white;
 }
 
 button {
@@ -98,7 +100,7 @@ button:focus-visible {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 28px;
-    max-width: 280px;
+    font-size: 32px;
+    /* max-width: 280px; */
   }
 }
