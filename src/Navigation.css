@@ -1,0 +1,40 @@
+.header__nav {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 48px);
+    background-color: #e9f1f4;
+    z-index: 7;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+}
+
+.header__nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.header__nav li,  .header__nav li button {
+  width: 100%;
+  background-color: transparent;
+}
+
+.header__nav li button {
+  font-size: 18px;
+  color: black;
+}
+
+.header__nav li button p {
+  margin: 0;
+}

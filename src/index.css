@@ -46,6 +46,10 @@ h1 {
   color: #646cff;
 }
 
+h2 {
+  color: #242424;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -82,7 +86,7 @@ button:focus-visible {
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   z-index: 6;
   /* display: flex;
   justify-content: space-between;

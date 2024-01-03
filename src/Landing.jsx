@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from './Header';
+// import Header from './Header';
 import Services from './Services'
 import Form from './Form';
 import "./Landing.css";
+import Navigation from './Navigation';
 // import Pic from "./assets/AK6A4769.jpg"
 // import Pic from "./assets/AK6A4769.png";
 // import Pic from "./assets/bg-new.png";
 
-export default function Landing() {
+export default function Landing({navOpened, setNavOpened}) {
   const [orderClicked, setOrderClicked] = React.useState(false);
   React.useEffect(() => {
     orderClicked &&     setTimeout(() => {
@@ -16,7 +17,7 @@ export default function Landing() {
   }, [orderClicked])
   return (
     <main>
-      <Header />
+      {/* <Header /> */}
       <section className="landing">
         <div className='container'>
           <div>
@@ -33,6 +34,7 @@ export default function Landing() {
       </section>
       <Services />
       <Form orderClicked={orderClicked} />
+      {navOpened && <Navigation setNavOpened={setNavOpened} />}
     </main>
   )
 }
