@@ -5,7 +5,7 @@ import Ellipse from "./assets/Ellipse.png";
 export default function Services() {
   return (
     <section className="services">
-      {/* <div className="container"> */}
+      <div className="container">
         <h2>Услуги</h2>
         <ul className="services__ul">
           {services.map((service) => {
@@ -16,7 +16,7 @@ export default function Services() {
             </li>
           })}
         </ul>
-      {/* </div> */}
+      </div>
       {/* <img className="services__img" src={Ellipse} /> */}
     </section>
   )

@@ -6,9 +6,9 @@
     align-items: center;
     padding: 1% 10%;
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.35);
+    /* background-color: rgba(0, 0, 0, 0.35); */
     z-index: 7;
-    /* background-color: #e1eaef; */
+    background-color: #e1eaef;
 }
 
 .header__wrapper {
@@ -21,7 +21,8 @@
   font-size: 36px;
   letter-spacing: 3px;
   line-height: 1;
-  color: white;
+  /* color: white; */
+  color: black;
 }
 
 .header p, .header ul button p{
