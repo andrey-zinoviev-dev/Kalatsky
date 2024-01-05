@@ -34,7 +34,7 @@ section {
   box-sizing: border-box;
   /* padding: 20%; */
   padding: 10%;
-  background-color: #e1eaef;
+  /* background-color: #e1eaef; */
   overflow: hidden;
   position: relative;
 }
@@ -104,8 +104,8 @@ button:focus-visible {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 32px;
-    color: white;
+    font-size: 28px;
+    /* color: white; */
     /* max-width: 280px; */
   }
 }

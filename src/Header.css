@@ -8,7 +8,7 @@
     backdrop-filter: blur(5px);
     /* background-color: rgba(0, 0, 0, 0.35); */
     z-index: 7;
-    background-color: #e1eaef;
+    background-color: #f9f9f9;
 }
 
 .header__wrapper {
@@ -52,7 +52,7 @@
 .header ul button {
   background-color: transparent;
   border: none;
-  color: white;
+  color: black;
   /* font-size: 18px; */
 }
 

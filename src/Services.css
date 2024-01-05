@@ -50,6 +50,10 @@
   border: 2px solid #0138b7;
 }
 
+.services__ul button p {
+  margin: 0;
+}
+
 .services__ul button:hover {
   border: 2px solid white;
   background-color: white;
@@ -71,6 +75,6 @@
   }
 
   .services__ul li {
-    height: 140px;
+    height: 95px;
   }
 }
