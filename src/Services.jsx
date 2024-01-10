@@ -4,7 +4,7 @@ import Ellipse from "./assets/Ellipse.png";
 
 export default function Services() {
   return (
-    <section className="services">
+    <section id="services-section" className="services">
       <div className="container">
         <h2>Услуги</h2>
         <ul className="services__ul">

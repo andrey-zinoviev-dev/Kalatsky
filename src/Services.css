@@ -26,7 +26,7 @@
 }
 
 .services__ul li {
-  height: 240px;
+  height: 180px;
   box-sizing: border-box;
 }
 
@@ -66,6 +66,15 @@
   top: calc(100% - 50vh);
   left: -10%;
   max-width: 360px;
+}
+
+@media screen and (max-width: 1279px) {
+  .services__ul {
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  }
+  .services__ul li {
+    height: 180px;
+  }
 }
 
 @media screen and (max-width: 767px) {

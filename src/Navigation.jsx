@@ -5,9 +5,9 @@ export default function Navigation ({setNavOpened}) {
     <nav className="header__nav">
     <ul>
       {headerBtns.map((btn) => {
-        return <li key={btn}>
+        return <li key={btn.name}>
           <button>
-            <p>{btn}</p>
+            <a href={`#${btn.link}`}>{btn.name}</a>
           </button>
         </li>
       })}

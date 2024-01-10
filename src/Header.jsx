@@ -13,7 +13,9 @@ export default function Header({setNavOpened}) {
       {/* <div className="container">
 
       </div> */}
-            <p id="logo">Kalatsky</p>
+            <p id="logo">Адвокат Калацкий Борис Валерьевич</p>
+            <a href="tel:+79857626442">+7(985)7626442</a>
+
             <button className="header__menu-btn" onClick={() => {
               // navRef.current.classList.add("nav_opened");
               setNavOpened(true);
@@ -23,9 +25,9 @@ export default function Header({setNavOpened}) {
             <nav>
               <ul>
                 {headerBtns.map((btn) => {
-                  return <li key={btn}>
+                  return <li key={btn.name}>
                     <button>
-                      <p>{btn}</p>
+                      <a href={`#${btn.link}`}>{btn.name}</a>
                     </button>
                   </li>
                 })}

@@ -13,7 +13,7 @@ export default function Form({orderClicked}) {
   }, [orderClicked]);
 
   return (
-    <section className="contanct" ref={sectionRef}>
+    <section id="contact-section" className="contanct" ref={sectionRef}>
       <div className="container">
         <h2 className="contanct__headline">Связаться со мной</h2>
         <ul className="contanct__ul">
@@ -24,10 +24,6 @@ export default function Form({orderClicked}) {
               <li>
                 <FontAwesomeIcon icon={faEnvelope} />
                 <a href="mailto:sttrog_810@mail.ru">law@kalatsky.com</a>
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faLocationDot} />
-                <p>Россия, Москва, Климашкина, 9-63</p>
               </li>
         </ul>
         <div className="contanct__wrapper">
@@ -40,10 +36,10 @@ export default function Form({orderClicked}) {
               <input placeholder="Email" type="email"></input>
               <input placeholder="Телефон" type="phone"></input>
             </div>
-            <div className="contanct__form-message">
+            {/* <div className="contanct__form-message">
               <label>Опишите Вашу ситуацию</label>
               <textarea></textarea>
-            </div>
+            </div> */}
             <button className="contanct__form-btn" type="button">Отправить</button>
           </form>
           <img className="contanct__wrapper-img" src={map} />

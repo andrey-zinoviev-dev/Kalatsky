@@ -17,12 +17,17 @@
   align-items: center;
 }
 
+.header a {
+  font-size: 18px;
+}
+
 #logo {
-  font-size: 36px;
+  font-size: 18px;
   letter-spacing: 3px;
-  line-height: 1;
-  /* color: white; */
+  line-height: 1.2;
   color: black;
+    font-weight: 700;
+    max-width: 210px;
 }
 
 .header p, .header ul button p{
@@ -61,8 +66,8 @@
   color: #0138b7;
 }
 
-.header__input-check:checked ~ .header__nav {
-  background-color: red;
+.header ul button a {
+  color: black;
 }
 
 @media screen and (max-width: 1279px) {
@@ -77,6 +82,11 @@
   }
   .header nav {
     display: none;
+  }
+  #logo {
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 160px;
   }
 }
 
