@@ -127,6 +127,7 @@ main {
 
 .landing__navigation-wrapper-btn_active {
   background-color: #646CFF;
+  border: 2px solid #2a2e89;
 }
 
 @media screen and (max-width:1439px) {

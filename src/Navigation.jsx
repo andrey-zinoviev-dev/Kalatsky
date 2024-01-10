@@ -6,7 +6,9 @@ export default function Navigation ({setNavOpened}) {
     <ul>
       {headerBtns.map((btn) => {
         return <li key={btn.name}>
-          <button>
+          <button onClick={() => {
+            setNavOpened(false);
+          }}>
             <a href={`#${btn.link}`}>{btn.name}</a>
           </button>
         </li>

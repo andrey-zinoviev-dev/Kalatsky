@@ -1,6 +1,6 @@
 .header {
   position: sticky;
-    top: 0;
+    top: -1px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +9,7 @@
     /* background-color: rgba(0, 0, 0, 0.35); */
     z-index: 7;
     background-color: #f9f9f9;
+    box-sizing: border-box;
 }
 
 .header__wrapper {
@@ -77,6 +78,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    height: 65px;
+  }
   .header__menu-btn {
     display: block;
   }
