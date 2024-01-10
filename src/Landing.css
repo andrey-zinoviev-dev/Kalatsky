@@ -183,7 +183,7 @@ main {
 @media screen and (max-width:767px) {
   .landing {
     background-position: 17%;
-    padding: 5% 2%;
+    /* padding: 5% 5%; */
     /* background-position: 80% 0; */
   }
   .landing__wrapper {
