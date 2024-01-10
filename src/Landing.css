@@ -16,7 +16,8 @@ main {
 
 .landing__wrapper {
   /* max-width: 900px; */
-  max-width: 840px;
+  /* max-width: 840px; */
+  max-width: 620px;
   margin-left: auto;
   min-height: 420px;
   display: flex;
@@ -92,7 +93,7 @@ main {
     justify-content: space-between;
     margin: auto 0 0 0;
     box-sizing: border-box;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 10px;
     width: 100%;
 }
 
@@ -136,7 +137,7 @@ main {
     background-position: right;
   } */
   .landing__wrapper {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin-left: auto;
   }
 }
@@ -155,7 +156,7 @@ main {
   } */
 
   .landing__wrapper {
-    max-width: 540px;
+    max-width: 480px;
     margin-left: auto;
   }
 
@@ -180,7 +181,7 @@ main {
 
 @media screen and (max-width:767px) {
   .landing {
-    background-position: 10%;
+    background-position: 15%;
     /* background-position: 80% 0; */
   }
   .landing__wrapper {
