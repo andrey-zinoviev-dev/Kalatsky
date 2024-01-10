@@ -182,7 +182,7 @@ main {
 
 @media screen and (max-width:767px) {
   .landing {
-    background-position: 17%;
+    background-position: 15%;
     /* padding: 5% 5%; */
     /* background-position: 80% 0; */
   }
@@ -215,7 +215,7 @@ main {
     display: none;
   }
   .landing__button-hero {
-    width: 210px;
+    width: 200px;
     margin: 25px auto 0 0;
   }
   .landing__overlay {
