@@ -26,8 +26,7 @@ export default function Form({orderClicked}) {
                 <a href="mailto:sttrog_810@mail.ru">law@kalatsky.com</a>
               </li>
         </ul>
-        <div className="contanct__wrapper">
-          <form className="contanct__form">
+        <form className="contanct__form">
             <div className="contanct__form-div">
               <input placeholder="Имя" type="text"></input>
               {/* <input placeholder="Фамилия" type="text"></input> */}
@@ -42,8 +41,9 @@ export default function Form({orderClicked}) {
             </div> */}
             <button className="contanct__form-btn" type="button">Отправить</button>
           </form>
-          {/* <img className="contanct__wrapper-img" src={map} /> */}
-        </div>
+        {/* <div className="contanct__wrapper">
+
+        </div> */}
       </div>
       {/* <img className="contact__img" src={Ellipse} /> */}
     </section>

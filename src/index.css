@@ -102,9 +102,9 @@ a {
   align-items: center; */
 }
 
-.container_contact {
+/* .container_contact {
   max-width: 360px;
-}
+} */
 
 @media screen and (max-width: 1279px) {
   section {
