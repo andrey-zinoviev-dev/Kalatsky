@@ -102,6 +102,10 @@ a {
   align-items: center; */
 }
 
+.container_contact {
+  max-width: 360px;
+}
+
 @media screen and (max-width: 1279px) {
   section {
     padding: 5%;
@@ -115,5 +119,6 @@ a {
     margin: 0 0 0 0;
     /* color: white; */
     max-width: 280px;
+    align-self: flex-end;
   }
 }

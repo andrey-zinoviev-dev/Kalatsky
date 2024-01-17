@@ -3,14 +3,16 @@ main {
   background-color: #f9f9f9;
 }
 .landing {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   /* background-color: #e9f1f4; */
   /* background-image: url("./assets/bg-new.png"); */
-  background-image: url("./assets/bg-white-3.png");
-  /* background-size: contain; */
-  background-size: cover;
+  /* background-image: url("./assets/bg-white-3.png"); */
+  background-image: url("./assets//test-bg-height.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
   /* background-position: top; */
 }
 
@@ -29,7 +31,7 @@ main {
 .landing__wrapper p {
   max-width: 390px;
   line-height: 1.5;
-  margin: 25px 0 0 0;
+  margin: 25px 0;
   /* margin: 0 0 50px 0; */
   color: #646cff;
   /* color: white; */
@@ -68,7 +70,7 @@ main {
   background-color: #0138b7;
   color: white;
   transition: all 0.35s ease-in-out;
-  margin: 25px 0 0 0;
+  /* margin: 25px 0 0 0; */
 }
 
 .landing__button-hero:hover {
@@ -91,7 +93,7 @@ main {
   display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto 0 0 0;
+    margin: 25px 0 0 0;
     box-sizing: border-box;
     padding: 0 0 0 10px;
     width: 100%;
@@ -182,15 +184,18 @@ main {
 
 @media screen and (max-width:767px) {
   .landing {
-    background-position: 15%;
+    background-position: 10%;
+    background-size: cover;
     /* padding: 5% 5%; */
     /* background-position: 80% 0; */
   }
   .landing__wrapper {
     max-width: 100%;
-    align-items: flex-end;
+    justify-content: center;
+    /* align-items: flex-end; */
+    align-items: center;
     text-align: left;
-    max-width: 200px;
+    /* max-width: 200px; */
     /* justify-content: center; */
   }
   .landing__wrapper p  {
@@ -201,6 +206,7 @@ main {
     min-height: 165px;
     max-width: 170px;
     text-align: right;
+    margin-left: auto;
   }
   .landing__wrapper p span {
     font-size: 18px;
@@ -216,7 +222,7 @@ main {
   }
   .landing__button-hero {
     width: 200px;
-    margin: 25px auto 0 0;
+    margin: 15px auto 0;
   }
   .landing__overlay {
     display: block;

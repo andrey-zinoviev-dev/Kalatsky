@@ -1,6 +1,9 @@
 import { services } from "./utils";
 import "./Services.css";
 import Ellipse from "./assets/Ellipse.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// inport {faCheck}
 
 export default function Services() {
   return (
@@ -12,6 +15,7 @@ export default function Services() {
             return <li className="services__ul-li" key={service.name}>
               <button>
                 <p>{service.name}</p>
+                <FontAwesomeIcon className="services__ul-li-arrow" icon={faArrowRight} />
               </button>
             </li>
           })}

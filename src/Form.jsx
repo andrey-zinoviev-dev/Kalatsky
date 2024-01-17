@@ -14,7 +14,7 @@ export default function Form({orderClicked}) {
 
   return (
     <section id="contact-section" className="contanct" ref={sectionRef}>
-      <div className="container">
+      <div className="container container_contact">
         <h2 className="contanct__headline">Связаться со мной</h2>
         <ul className="contanct__ul">
               <li>
@@ -30,7 +30,7 @@ export default function Form({orderClicked}) {
           <form className="contanct__form">
             <div className="contanct__form-div">
               <input placeholder="Имя" type="text"></input>
-              <input placeholder="Фамилия" type="text"></input>
+              {/* <input placeholder="Фамилия" type="text"></input> */}
             </div>
             <div className="contanct__form-div">
               <input placeholder="Email" type="email"></input>
@@ -42,7 +42,7 @@ export default function Form({orderClicked}) {
             </div> */}
             <button className="contanct__form-btn" type="button">Отправить</button>
           </form>
-          <img className="contanct__wrapper-img" src={map} />
+          {/* <img className="contanct__wrapper-img" src={map} /> */}
         </div>
       </div>
       {/* <img className="contact__img" src={Ellipse} /> */}

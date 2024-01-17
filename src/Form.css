@@ -1,5 +1,6 @@
 .contanct {
   position: relative;
+  padding: 2% 10%;
   /* padding: 10% 20%; */
 }
 
@@ -148,7 +149,7 @@
 
 @media screen and (max-width: 1279px) {
   .contanct {
-    padding: 5%;
+    padding: 2% 5%;
   }
   .contanct__wrapper {
     gap: 60px;
