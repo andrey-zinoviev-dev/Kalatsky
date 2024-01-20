@@ -13,7 +13,7 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   /* background-size: cover; */
-  /* background-position: top; */
+  background-position: top;
 }
 
 .landing__wrapper {
@@ -146,6 +146,9 @@ main {
 }
 
 @media screen and (max-width: 1279px) {
+  .landing {
+    background-position: left;
+  }
   .landing__wrapper {
     max-width: 620px;
     margin-left: auto;

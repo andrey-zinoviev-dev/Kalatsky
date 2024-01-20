@@ -50,23 +50,27 @@
   /* background-color: #e1eaef; */
   transition: all 0.35s ease-in-out;
   background-color: transparent;
-  border: 2px solid #0138b7;
+  /* border: 2px solid #0138b7; */
+  border: 2px solid #646cff;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.services__ul-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  transition: color 0.25s ease-in-out;
+}
+
 .services__ul button p {
   margin: 0;
   text-align: left;
-}
-
-.services__ul button:hover {
-  border: 2px solid white;
-  background-color: white;
-  color: white;
-  color: #0138b7;
 }
 
 .services__img {
