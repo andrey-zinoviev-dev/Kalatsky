@@ -1,11 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { services } from "./utils";
+import Form from "./Form";
 export default function Service() {
   const {serviceIndex} = useParams();
   const matchedService = services[serviceIndex - 1];
   return (
-    <section className="service">
+    <>
+        <section className="service">
       <div className="container">
         <h2>{matchedService.name}</h2>
 
@@ -19,5 +21,8 @@ export default function Service() {
         </ul>
       </div>
     </section>
+    <Form />
+    </>
+
   )
 }

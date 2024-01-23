@@ -11,7 +11,7 @@ import {
 // import Services from './Services'
 
 function App() {
-  // const [navOpened, setNavOpened] = React.useState(false);
+
   const router = createBrowserRouter([
     {
       element: <Landing />, 
@@ -23,10 +23,6 @@ function App() {
   ])
   return (
     <RouterProvider router={router} />
-    // <>
-    //   <Header setNavOpened={setNavOpened}/>
-    //   <Landing navOpened={navOpened} setNavOpened={setNavOpened}/>
-    // </>
   )
 }
 

@@ -6,20 +6,29 @@ import Form from './Form';
 import "./Landing.css";
 import Navigation from './Navigation';
 import { services } from "./utils";
+import { useLocation } from 'react-router-dom';
 
-export default function Landing({navOpened, setNavOpened}) {
+export default function Landing() {
 
+  const {pathname} = useLocation();
+
+  const [navOpened, setNavOpened] = React.useState(false);
   const [orderClicked, setOrderClicked] = React.useState(false);
   const [serviceOrder, setServiceOrder] = React.useState(0);
+
+  React.useEffect(() => {
+    pathname !== "/" && window.scrollTo(0, 0);
+  }, [pathname])
 
   return (
     // <main>
     <>
-      <Header />
+      <Header navOpened={navOpened} setNavOpened={setNavOpened}/>
       <main>
         <Outlet>
         </Outlet>
       </main>
+      {navOpened && <Navigation setNavOpened={setNavOpened} />}
     </>
 
       

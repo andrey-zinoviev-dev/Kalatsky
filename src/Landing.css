@@ -189,6 +189,7 @@ main {
   .landing {
     background-position: 10%;
     background-size: cover;
+    height: calc(90vh - 65px);
     /* padding: 5% 5%; */
     /* background-position: 80% 0; */
   }

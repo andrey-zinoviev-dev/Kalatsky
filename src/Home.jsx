@@ -38,10 +38,9 @@ export default function Home() {
             <div className='landing__wrapper'>
               <h1 className='landing__headline'>Юридические консультации</h1>
               <p>Услуги, по которым можно отправить запрос: 
-                {/* <span>{services[serviceOrder].name}</span> */}
               </p>
               <button className='landing__button-hero' onClick={() => {
-                // setOrderClicked(true);
+               
               }}>Отправить запрос</button>
               <div className='landing__navigation-wrapper'>
                 <ul ref={buttonsRef}>
@@ -73,7 +72,6 @@ export default function Home() {
             })}
           </ul>
         </div>
-      {/* <img className="services__img" src={Ellipse} /> */}
       </section>
       <section id="contact-section" className="contanct">
       <div className="container container_contact">
@@ -91,23 +89,14 @@ export default function Home() {
         <form className="contanct__form">
             <div className="contanct__form-div">
               <input placeholder="Имя" type="text"></input>
-              {/* <input placeholder="Фамилия" type="text"></input> */}
             </div>
             <div className="contanct__form-div">
               <input placeholder="Email" type="email"></input>
               <input placeholder="Телефон" type="phone"></input>
             </div>
-            {/* <div className="contanct__form-message">
-              <label>Опишите Вашу ситуацию</label>
-              <textarea></textarea>
-            </div> */}
             <button className="contanct__form-btn" type="button">Отправить</button>
           </form>
-        {/* <div className="contanct__wrapper">
-
-        </div> */}
       </div>
-      {/* <img className="contact__img" src={Ellipse} /> */}
     </section>
     </>
 
